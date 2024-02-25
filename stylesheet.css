@@ -1,0 +1,84 @@
+
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* setting hmtl */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+
+/* creating the title */
+.title{
+      font-size: 400%;
+      margin-bottom: 10px;
+      max-width: 50%;
+      position: absolute;
+      top: 20%;
+      left: 45%;
+  }
+  
+  /* grouping and postioning */
+  .calculator {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+  }
+  
+  /* screen */
+  .calculator-screen {
+    max-width: 25.9rem;
+    font-size: 5rem;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-left: 3%;
+    
+  }
+  
+  /* buttons */
+  button {
+    height: 70px;
+    background-color: #999999;
+    font-size: 2rem;
+    color: white;
+    margin: .2rem;
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  /* operator buttons */
+  .operator{
+      background-color: orange;
+  }
+  
+  /* clear button */
+  .all-clear {
+    background-color: #231286;
+    color:white;
+  }
+  
+  /* equal button */
+  .equal-sign {
+    background-color: orange;
+    color:white;
+  }
+  
+  /* alignment and grid */
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    padding: 10px;
+    width: 6rem;
+    height: 6rem;
+  }
